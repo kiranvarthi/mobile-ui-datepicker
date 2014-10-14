@@ -1,0 +1,66 @@
+/* Mobile Media Queries Start */
+@media (max-width: 767px) {
+    .ui-datepicker {
+        font-family: Arial;
+        font-size: 12px;
+    }
+
+    .ui-datepicker .ui-datepicker-buttonpane {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        border-bottom: 1px solid #ccc;
+        background: #1c94c4;
+    }
+
+    .ui-datepicker .ui-datepicker-buttonpane .ui-priority-secondary {
+        display: none !important;
+    }
+
+    .ui-datepicker .ui-datepicker-buttonpane button {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 5px 15px;
+    }
+
+    .ui-datepicker, .ui-datepicker-multi {
+        width: 100% !important;
+        top: 0px !important;
+        left: 0px !important;
+        padding-top: 40px;
+        padding-bottom: 15px;
+        position: fixed !important;
+        height: 100%;
+        overflow: auto;
+    }
+
+    .ui-datepicker-group {
+        width: 90%;
+        margin: 15px 0% 0px 5%;
+        background: #fff;
+    }
+
+    .ui-datepicker .ui-widget-header {
+        background: #f1f1f1;
+        border-radius: 0;
+        border: 1px solid #f1f1f1;
+        color: #000;
+        margin: 5px;
+    }
+
+    .ui-datepicker .ui-state-default, .ui-datepicker .ui-widget-content .ui-state-default, .ui-datepicker .ui-widget-header .ui-state-default {
+        background: #fff;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .ui-datepicker .ui-state-highlight, .ui-datepicker .ui-widget-content .ui-state-highlight, .ui-datepicker .ui-widget-header .ui-state-highlight {
+        background: #1c94c4;
+        font-weight: normal;
+        text-align: center;
+        color: #fff;
+    }
+}
