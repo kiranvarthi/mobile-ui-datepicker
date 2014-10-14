@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery Date picker Plugin - Mobile UX Wrapper</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="JQuery Date picker Plugin">
+    <meta name="keywords" content="HTML,CSS,JavaScript,JQuery,Date Picer">
+    <meta name="author" content="Kiran Varthi">
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.1/css/jquery-ui.min.css' type='text/css' />
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.1/css/jquery-ui.theme.min.css' type='text/css' />
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
+    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js'></script>
+    <link rel='stylesheet' href='mobileWrapper.css' type='text/css' />
+    <script type='text/javascript' src='mobileWrapper.js'></script>
+    <script>
+        $(function () {
+            datepickerWrapper("datepicker");
+        });
+    </script>
+    <style>
+        body {
+            font-family: Arial;
+            font-size: 12px;
+        }
+        .demo {
+            width: 80%; max-width: 600px; margin: 50px auto; padding: 50px 20px; background: #f1f1f1; border: 1px solid #ccc;
+        }
+        h1 { text-align: center;  }
+        input { background: #fff; border: 1px solid #ccc; height: 20px; }
+    </style>
+</head>
+<body>
+    <h1>JQuery Date picker Plugin - Mobile UX Wrapper</h1>
+    <div class="demo">
+        <p>Date:
+            <input type="text" id="datepicker"></p>
+    </div>
+</body>
+</html>
